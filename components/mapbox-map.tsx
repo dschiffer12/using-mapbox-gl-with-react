@@ -26,8 +26,8 @@ function MapboxMap({
 
     const mapboxMap = new mapboxgl.Map({
       container: node,
-      accessToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN,
-      style: "mapbox://styles/mapbox/streets-v11",
+      accessToken: "pk.eyJ1IjoiZHNjaGlmZmVyMTIiLCJhIjoiY2xiZHQ5bTFuMDRtajNvbzQ3c3VudmhvMiJ9.2uvgoSuAn4BT_WJxTGQCZw",
+      style: "mapbox://styles/dschiffer12/cljjnamwy001k01rdcppdg3tv",
       center: [-74.5, 40],
       zoom: 9,
       ...initialOptions,
