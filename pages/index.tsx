@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>Using mapbox-gl with React and Next.js</title>
+        <title>Geo-Forge 3D</title>
         <meta
           property="og:title"
           content="Using mapbox-gl with React and Next.js"
@@ -23,7 +23,7 @@ function App() {
       <div className="app-container">
         <div className="map-wrapper">
           <MapboxMap
-            initialOptions={{ center: [38.0983, 55.7038] }}
+            initialOptions={{ center: [35.0844, -106.6504] }}
             onLoaded={handleMapLoading}
           />
         </div>
